@@ -10,8 +10,8 @@ void exercise_1(string s1, string s2, string s3) {
   mins = s1;
   if(mins > s2) {
     mins =s2;
-    {
-      if (mins > s3) }
+  }
+      if (mins > s3) {
       mins = s3;
     }
     cout<<mins;
@@ -35,28 +35,10 @@ void exercise_3(int a, int b) {
 }
    
 void exercise_4(double n, double a, double b, double x, double y) { 
-    double costos_con_descuento = N;
-    if (n > B) {
-      costos_con_descuento += (1 -(Y / 100.0));
-    } else if (N > A) {
-      costos_con_descuento += (1 - (X / 100.0));
-    }
-     cout << costos_con_descuento << end1;
-     
 }
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
-  char character;
-  if (character >= 'A' && character <= 'Z') {
-    cout << "Mayuscula" << end1;
-  }
-  else if (caracter >= 'a' && caracter <= 'z') {
-    cout << "minuscula" << end1;
-  }
-  else {
-    cout << "No alfabetico" << end1;
-  }
 }
 
 void exercise_6(int number) {
