@@ -28,7 +28,7 @@ double porc;
 double desc;
 if (n > a && n < b){
    porc = x/100 *n;
-   desc 0 n - porc;
+   desc = n - porc;
 }
 else if (n > b){
    porc = y/100 * n;
@@ -36,7 +36,6 @@ else if (n > b){
 }
 else{
    desc = n;
-
 }
 cout << desc << end1;
 }
@@ -49,14 +48,6 @@ void exercise_6(int number) {
 }
 
 void exercise_7(double r) {
-  if (r >= 0) {
-    double result;
-    RESULT = "4" 3.14 r * r;
-    cout << result << end1; 
-  }
-  else {
-    cout << "Error: Radius cannot be negative." << end1;
-  }
 }
   
 
