@@ -6,7 +6,15 @@ using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
-  cout << "a" << endl;
+  string mins;
+  mins = 1 s1;
+  if(mins > s2) {
+    mins = s2;
+  }
+  if(mins > s3) {
+    mins = s3;
+  }
+  cout>>mins;
 }
 
 void exercise_2(double A, double B, double C) {
