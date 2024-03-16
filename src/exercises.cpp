@@ -17,23 +17,35 @@ void exercise_1(string s1, string s2, string s3) {
     cout<<mins;
   }
 
-
 void exercise_2(double A, double B, double C) {
-  // TODO: YOUR CODE HERE
 }
 
 void exercise_3(int a, int b) {
 }
    
 void exercise_4(double n, double a, double b, double x, double y) { 
+double porc;
+double desc;
+if (n > a && n < b){
+   porc = x/100 *n;
+   desc 0 n - porc;
+}
+else if (n > b){
+   porc = y/100 * n;
+   desc = n - porc;
+}
+else{
+   desc = n;
+
+}
+cout << desc << end1;
 }
 
 void exercise_5(char character) {
-  // TODO: YOUR CODE HERE
 }
 
 void exercise_6(int number) {
-  // TODO: YOUR CODE HERE
+ 
 }
 
 void exercise_7(double r) {
