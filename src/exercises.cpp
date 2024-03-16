@@ -23,15 +23,14 @@ void exercise_2(double A, double B, double C) {
 }
 
 void exercise_3(int a, int b) {
-  // TODO: YOUR CODE HERE
-    /*if (B==0) 
+  if (B==0) 
     {
     cout <<"impossible" << end1;
     } 
     else 
     {
     cout <<a/b<<end1;
-    }*/
+    }
 }
    
 void exercise_4(double n, double a, double b, double x, double y) { 
@@ -47,7 +46,16 @@ void exercise_6(int number) {
 
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
+  if (r >= 0) {
+    double result;
+    result= 4 * 3.14 * r * r;
+    cout << result << end1;
+  }
+  else {
+    cout<< "Error: Radius cannot be neagetive." << end1;
+  }
 }
+  
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
