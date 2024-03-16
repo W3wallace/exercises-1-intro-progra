@@ -25,19 +25,7 @@ void exercise_3(int a, int b) {
    
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
-   double costo_con_descuento = N;
-
-   if (N > B) {
-    costo_con_descuento *= (1 - (Y / 100.0));
-   } else if (N > A) {
-    costo_con_descuento *= (1 - (X / 100.0));
-   }
-   cout << costo costo_con_descuento << end1;
-
-  double N, A, B, X, Y;
-  
-  calcularCostosConDescuentos(N, A, B, X, Y);
-  
+}
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
