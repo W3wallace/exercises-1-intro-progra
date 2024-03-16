@@ -13,7 +13,7 @@ int main() {
        mins = s2;
   }
   if (mins > s3) {
-       mins= s3 ;
+       mins= s3;
   }
   cout <<mins;
   }
@@ -36,7 +36,7 @@ void exercise_3(int a, int b) {
 }
    
 void exercise_4(double n, double a, double b, double x, double y) { 
-    double costos_con_descuento = N,
+    double costos_con_descuento = N;
     if (n > B) {
       costos_con_descuento += (1 -(Y / 100.0));
     } else if (N > A) {
