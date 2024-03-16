@@ -37,14 +37,6 @@ void exercise_6(int number) {
 }
 
 void exercise_7(double r) {
-  if (r >= 0) {
-    double result;
-    result= 4 * 3.14 * r * r;
-    cout << result << end1;
-  }
-  else {
-    cout<< "Error: Radius cannot be neagetive." << end1;
-  }
 }
   
 
