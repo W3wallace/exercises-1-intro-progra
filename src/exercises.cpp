@@ -42,11 +42,6 @@ void exercise_5(char character) {
     cout << "not an alphabet" << end1;
    }
   }
-
-  }
-  // TODO: YOUR CODE HERE
-}
-
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE
 }
