@@ -5,8 +5,15 @@
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
-  // TODO: YOUR CODE HERE
-  cout << "a" << endl;
+  string mins;
+  mins = s1;
+  if(mins > s2) {
+    mins =s2;
+  }
+   if(mins > s3) {
+    mins = s3;
+   }
+   cout<<mins;
 }
 
 void exercise_2(double A, double B, double C) {
@@ -22,6 +29,21 @@ void exercise_4(double n, double a, double b, double x, double y) {
 }
 
 void exercise_5(char character) {
+  int ASCII;
+  ASCII = (int) character;
+  if (ASCIT >= 65 && ASCII <= 96){
+    cout << "lower-case alphabet" << end1;
+  }
+  else if (ASCII >= 97 && ASCII <= 122){
+    cout << "upper-case alphabet" << end1;
+  }
+  else if (ASCIT >= 32 && ASCII <= 64) {
+
+    cout << "not an alphabet" << end1;
+   }
+  }
+
+  }
   // TODO: YOUR CODE HERE
 }
 
