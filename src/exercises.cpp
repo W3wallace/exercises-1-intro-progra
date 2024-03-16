@@ -12,13 +12,40 @@ void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
 }
 
-void exercise_3(int a, int b) {
+void exercise_3(int a, int b) { 
+  if 
   // TODO: YOUR CODE HERE
-}
+  int main() {
+    int A, B;
+    cin >> A >>B;
+    if (8==0) {
+      cout <<"impossible" << end1;
+} else {
+     int cociente = A/B;
+     cout << cociente << end1;
+   }
+   return 0;
+  }
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
-}
+   double costo_con_descuento = N;
+
+   if (N > B) {
+    costo_con_descuento *= (1 - (Y / 100.0));
+   } else if (N > A) {
+    costo_con_descuento *= (1 - (X / 100.0));
+   }
+   cout << costo costo_con_descuento << end1;
+} 
+int main () {
+  double N, A, B, X, Y;
+
+  cin >> N >> A >> B >> X >> Y;
+
+  calcularCostosConDescuentos(N, A, B, X, Y);
+  return 0;
+}  
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
