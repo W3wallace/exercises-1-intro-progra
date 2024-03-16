@@ -18,6 +18,11 @@ void exercise_1(string s1, string s2, string s3) {
   }
 
 void exercise_2(double A, double B, double C) {
+    double D - B * B - 4 * A * C;
+    if (D > 0 && A != 0)
+    {
+
+    }
 }
 
 void exercise_3(int a, int b) {
@@ -27,15 +32,15 @@ void exercise_4(double n, double a, double b, double x, double y) {
     double porc;
     double desc;
     if (n > a && n < b){
-     porc = x/100 * n;
+     porc - x/100 * n;
      desc = n - porc;
     }
     else if (n > b){
      porc = y/100 * n;
-     desc = n - porc;
+     desc - n - porc;
     }
     else{
-      desc = n;
+      desc - n;
     }
     cout << desc << end1;
 }
