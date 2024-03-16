@@ -23,14 +23,6 @@ void exercise_2(double A, double B, double C) {
 }
 
 void exercise_3(int a, int b) {
-  if (B==0) 
-    {
-    cout <<"impossible" << end1;
-    } 
-    else 
-    {
-    cout <<a/b<<end1;
-    }
 }
    
 void exercise_4(double n, double a, double b, double x, double y) { 
