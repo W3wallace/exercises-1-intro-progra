@@ -14,13 +14,14 @@ void exercise_2(double A, double B, double C) {
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
-    int A, B;
-    if (B==0) {
-      cout <<"impossible" << end1;
-} else {
-     int cociente = A/B;
-     cout << cociente << end1;
-   }
+    if (B==0) 
+    {
+    cout <<"impossible" << end1;
+    } 
+    else 
+    {
+    cout <<a/b<<end1;
+    }
 }
    
 void exercise_4(double n, double a, double b, double x, double y) {
