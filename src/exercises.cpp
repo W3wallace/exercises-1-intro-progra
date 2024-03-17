@@ -175,10 +175,14 @@ int exercise_10(int a, int b) {
 }
 
 string exercise_11(int number) {
-  // TODO: YOUR CODE HERE
-  return "";
+  if(number == 11235813) {
+    return "se encontro a fibonacci";
+  }
+  else
+  {
+  return "esto no es de fibonacci";
 }
-
+}
 void exercise_12(string color1, int numb1,
                  string color2, int numb2,
                  string color3, int numb3,
@@ -187,12 +191,19 @@ void exercise_12(string color1, int numb1,
 }
 
 string exercise_13(int age, int years_of_experience) {
-  // TODO: YOUR CODE HERE
+
   return "";
 }
 
-string exercise_14(int number_of_docs) {
-  // TODO: YOUR CODE HERE
+string exercise_14(int number_of_docs) {if(number_of_docs <= 0){
+    return "No se encontraron documentos";
+  }
+  else if (number_of_docs == 1) {
+    return "Se encontro un documento";
+  }
+  else if (number_of_docs > 1){
+    return to_string (number_of_docs) + " documentos encontrados";
+  }
   return "";
 }
 
