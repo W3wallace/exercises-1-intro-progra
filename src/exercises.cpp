@@ -19,7 +19,7 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) { 
    double D = B * B - 4 * A * C;
-   if (D > = && A != 0)
+   if (D > 0 = && A != 0)
    {
        double d_sqrt = sqrt (D);
        double x1 = (-B + d_sqrt) / (2*A);
@@ -29,7 +29,7 @@ void exercise_2(double A, double B, double C) {
   else if (D==0 && A!= 0)
    {
   double d_sqrt = sqrt (D);
-  double 1x = (-B + d_sqrt) / (2*A);
+  double x1 = (-B + d_sqrt) / (2*A);
     cout<<x1<<endl;
    }
   else if (A==0&& B!=0)
