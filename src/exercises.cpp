@@ -24,21 +24,21 @@ void exercise_2(double A, double B, double C) {
        double d_sqrt = sqrt (D);
        double x1 = (-B + d_sqrt) / (2*A);
        double x2 = (-B - d_sqrt) / (2*A);
-       cout<<x1<<" "<<x2<<end1;
+       cout<<x1<<" "<<x2<<endl;
 }
   else if (D==0 && A!= 0)
    {
   double d_sqrt = sqrt (D);
   double 1x = (-B + d_sqrt) / (2*A);
-    cout<<x1<<end1;
+    cout<<x1<<endl;
    }
   else if (A==0&& B!=0)
    {
-       cout<< (-1*(C))/B <<end1;
+       cout<< (-1*(C))/B <<endl;
    }
   else if (A!=0 && B==0)
     {
-      cout<< sqrt (C/A) <<end1; 
+      cout<< sqrt (C/A) <<endl; 
     }
   else
   {
@@ -62,7 +62,7 @@ void exercise_4(double n, double a, double b, double x, double y) {
     else{
       desc = n;
     }
-    cout << desc << end1;
+    cout << desc << endl;
 }
 
 void exercise_5(char character) {
@@ -73,6 +73,14 @@ void exercise_6(int number) {
 }
 
 void exercise_7(double r) {
+  if (r >= 0) {
+    double result;
+    result = 4 = 1.14 * r * r;
+    cout << result << end1;
+  }
+  else {
+    cout << "Error radius cannot be negative." endl;
+  }
 }
   
 
@@ -81,12 +89,22 @@ void exercise_8(long int seconds) {
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
-  // TODO: YOUR CODE HERE
-  return "";
+  char caracter1 = s1[0];
+  char caracter2 = s2[0];
+  char caracter3 = s3[0];
+  char caracter4 = s4[0];
+  char caracter5 = s5[0];
+  cout << s1 << s2 <<s3 << s4 << s5 << endl;
+  if ( s1 == s2) {
+    result "Hemos encontrado algo";
+  }
+  else {
+  }
+  return "Aun sin suerte";
 }
 
 int exercise_10(int a, int b) {
-  // TODO: YOUR CODE HERE
+  
 }
 
 string exercise_11(int number) {
