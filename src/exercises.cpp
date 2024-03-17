@@ -46,8 +46,15 @@ void exercise_2(double A, double B, double C) {
   }
 }
 void exercise_3(int a, int b) {
+  if (b==0)
+  {
+    cout << "Impossible" << endl;
+  }
+  else 
+  {
+    cout << a/b << endl;
+  }
 }
-   
 void exercise_4(double n, double a, double b, double x, double y) { 
     double porc;
     double desc;
@@ -76,7 +83,7 @@ void exercise_7(double r) {
   if (r >= 0) {
     double result;
     result = 4 = 1.14 * r * r;
-    cout << result << end1;
+    cout << result << endl;
   }
   else {
     cout << "Error radius cannot be negative." endl;
@@ -104,7 +111,13 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 }
 
 int exercise_10(int a, int b) {
-  
+  if (a < 0 && b < 0) {
+    return 0;
+  }
+  int sum - a + b;
+  int digit_count - (sum --0)? 1:
+  (int)log10(abs(sum)) + 1;
+  return sum* digit_count;
 }
 
 string exercise_11(int number) {
