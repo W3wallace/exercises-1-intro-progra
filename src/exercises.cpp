@@ -80,12 +80,12 @@ void exercise_6(int number) {
 }
 
 void exercise_7(double r) {
-  if (r >= 0) {
-    double result;
-    result = 4 = 1.14 * r * r;
-    cout << result << endl;
+  if (r >= 0)
+  {
+    cout << 4*3.14* r*r << endl;
   }
-  else {
+else
+  {
     cout << "Error radius cannot be negative." endl;
   }
 }
