@@ -17,43 +17,33 @@ void exercise_1(string s1, string s2, string s3) {
     cout<<mins;
   }
 
-void exercise_2(double A, double B, double C) { 
+void exercise_2(double A, double B, double C) {
    double D = B * B - 4 * A * C;
-   if (D > 0 = && A != 0)
+   if (D > 0 && A != 0)
    {
        double d_sqrt = sqrt (D);
-       double x1 = (-B + d_sqrt) / (2*A);
-       double x2 = (-B - d_sqrt) / (2*A);
+       double x1 = (-B + d_sqrt) / (2A);
+       double x2 = (-B - d_sqrt) / (2A); 
        cout<<x1<<" "<<x2<<endl;
-}
-  else if (D==0 && A!= 0)
-   {
-  double d_sqrt = sqrt (D);
-  double x1 = (-B + d_sqrt) / (2*A);
-    cout<<x1<<endl;
    }
-  else if (A==0&& B!=0)
+   else if (D==0 && A != 0)
    {
-       cout<< (-1*(C))/B <<endl;
+   double d_sqrt = sqrt (D);
+   double x1 = (-B + d_sqrt) / (2A); 
+   cout<<x1<<endl;
    }
-  else if (A!=0 && B==0)
-    {
-      cout<< sqrt (C/A) <<endl; 
-    }
-  else
-  {
-    cout<<"";
-  }
-}
-void exercise_3(int a, int b) {
-  if (b==0)
-  {
-    cout << "Impossible" << endl;
-  }
-  else 
-  {
-    cout << a/b << endl;
-  }
+   else if (A==0&& B!=0)
+   { 
+       cout<< (-1(C))/B <<endl;
+   }
+   else if (A!=0 && B==0)
+   {
+     cout<< sqrt (C/A) <<endl;
+   }
+   else
+   {
+       cout<<"";
+   }
 }
 void exercise_4(double n, double a, double b, double x, double y) { 
     double porc;
@@ -86,15 +76,45 @@ void exercise_7(double r) {
   }
 else
   {
-    cout << "Error radius cannot be negative." endl;
+    cout << "Error: Radius cannot be negative." endl;
   }
 }
   
 
 void exercise_8(long int seconds) {
-  // TODO: YOUR CODE HERE
+ int h;
+int m;
+if(seconds < 0){
+    cout << "Error: Input seconds cannot be negative." << endl;
 }
-
+else {
+h = seconds/3600;
+seconds = seconds%3600;
+m = seconds/60;
+seconds = seconds%60;
+  if(h < 10 && m < 10 && seconds < 10){
+    cout << "0" << h << ":" << "0" << m << ":" << "0" << seconds << endl;
+}
+else if(h < 10 && m >= 10 && seconds >= 10){
+    cout << "0" << h << ":" << m << ":" << seconds << endl; 
+}
+else if(h < 10 && m >= 10 && seconds < 10){
+    cout << "0" << h << ":" << m << ":" << "0" << seconds << endl;
+}
+else if(h < 10 && m < 10 && seconds >= 10){
+    cout << "0" << h << ":" << "0" << m << ":" << seconds << endl;
+}
+else if(h >= 10 && m < 10 && seconds < 10){
+    cout << h << ":" << "0" << m << ":" << "0" << seconds << endl; 
+}
+else if(h >= 10 && m >= 10 && seconds < 10){
+    cout << h << ":" << m << ":" << "0" << seconds << endl;
+}
+else{
+  cout << h << ":" << m << ":" << seconds << endl;
+} 
+}
+}
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   char caracter1 = s1[0];
   char caracter2 = s2[0];
