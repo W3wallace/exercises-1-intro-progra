@@ -191,6 +191,12 @@ void exercise_12(string color1, int numb1,
 }
 
 string exercise_13(int age, int years_of_experience) {
+  if(age >= 18 && years_of_experience >= 0 && years_of_experience < 3){
+    return "Project coordinator";
+  }
+  else{
+    return "Not eligible";
+  }
 
   return "";
 }
@@ -208,7 +214,9 @@ string exercise_14(int number_of_docs) {if(number_of_docs <= 0){
 }
 
 void exercise_15(int a, int b, int c) {
-  // TODO: YOUR CODE HERE
+  cout << "Los valores son: " << a << " b =" << b <<" y c = " << c << endl;
+  cout << "Permutamos: a=> b, b => c, c=> a" << endl;
+  cout << "Los valores depues de la permutacion son: a = " << c << " b = " << b << endl;
 }
 
 void exercise_16(int debut, int fin) {
