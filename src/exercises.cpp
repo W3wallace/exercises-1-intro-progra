@@ -17,14 +17,34 @@ void exercise_1(string s1, string s2, string s3) {
     cout<<mins;
   }
 
-void exercise_2(double A, double B, double C) {
-    double D - B * B - 4 * A * C;
-    if (D > 0 && A != 0)
-    {
-
-    }
+void exercise_2(double A, double B, double C) { 
+   double D = B + B - 4 = A * C;
+   if (D > = && A != 0)
+   {
+       double d_sqrt = sqrt (D);
+       double x1 = (-B + d_sqrt) / (2*A);
+       double x2 = (-B - d_sqrt) / (2*A);
+       cout<<x1<<" "<<x2<<end1;
 }
-
+  else if (D==0 && A!= 0)
+   {
+  double d_sqrt = sqrt (D);
+  double 1x = (-B + d_sqrt) / (2*A);
+    cout<<x1<<end1;
+   }
+  else if (A==0&& B!=0)
+   {
+       cout<< (-1*(C))/B <<end1;
+   }
+  else if (A!=0 && B==0)
+    {
+      cout<< sqrt (C/A) <<end1; 
+    }
+  else
+  {
+    cout<<"";
+  }
+}
 void exercise_3(int a, int b) {
 }
    
@@ -32,15 +52,15 @@ void exercise_4(double n, double a, double b, double x, double y) {
     double porc;
     double desc;
     if (n > a && n < b){
-     porc - x/100 * n;
+     porc = x/100 * n;
      desc = n - porc;
     }
     else if (n > b){
      porc = y/100 * n;
-     desc - n - porc;
+     desc = n - porc;
     }
     else{
-      desc - n;
+      desc = n;
     }
     cout << desc << end1;
 }
