@@ -63,9 +63,43 @@ void exercise_4(double n, double a, double b, double x, double y) {
 }
 
 void exercise_5(char character) {
+  nt res = character;
+  if (res >= 97 && res < 123){
+    cout << "lower-case alphabet" << endl;
+  }
+  else if (res >= 65 && res < 91){
+    cout << "upper-case alphabet" << endl;
+  }
+  else{
+    cout << "not an alphabet" << endl;
+  }
 }
 
 void exercise_6(int number) {
+  if(number == 1){
+  cout << "Monday" << endl;
+ }
+ else if(number == 2){
+    cout << "Tuesday" << endl;
+ }
+ else if(number == 3) {
+    cout << "Wednesday" << endl;
+ }
+ else if(number == 4) {
+    cout << "Thursday"<< endl;
+ }
+ else if(number == 5){
+    cout << "Friday" << endl;
+ }
+ else if(number == 6){
+    cout << "Saturday" << endl;
+ }
+ else if(number == 7){
+    cout << "Sunday" << endl;
+ }
+ else{
+     cout << "Invalid input" << endl;
+ }
  
 }
 
