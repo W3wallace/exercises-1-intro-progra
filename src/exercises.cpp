@@ -218,7 +218,7 @@ string exercise_13(int age, int years_of_experience) {
   if(age >= 18 && years_of_experience >= 0 && years_of_experience < 3){
     return "Project coordinator";
   }
-  else if(age >= 18 && years_of_experience >= 3 && years_of_experience < 5){
+  else if (age >= 18 && years_of_experience >= 3 && years_of_experience < 5){
     return "Project manager";
   }
   else if (age >= 18 && years_of_experience >= 5){
@@ -275,7 +275,7 @@ void exercise_16(int debut, int fin) {
   int hora_tarifa_1 =0;
   int horas_tarifa_2 =0;
 
-    while(hora_actual < fin)
+    while (hora_actual < fin)
    {
         if ((hora_actual >= 0 && hora_actual < 7) || (hora_actual >= 17 && hora_actual <= 24)) {
            hora_tarifa_1++;
