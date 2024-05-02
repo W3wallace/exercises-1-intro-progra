@@ -222,6 +222,7 @@ string exercise_13(int age, int years_of_experience) {
     return "Project manager";
   }
   else if (age >= 18 && years_of_experience >= 5){
+    return "senior proyect manager";
   }
   else{
     return "Not eligible";
