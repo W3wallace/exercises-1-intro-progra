@@ -15,7 +15,6 @@ void exercise_1(string s1, string s2, string s3) {
 }
 
 void exercise_2(double A, double B, double C) {
-  // TODO: YOUR CODE HERE
    double D = B * B - 4 * A * C;
    if (D > 0 && A != 0)
    {
@@ -256,7 +255,6 @@ void exercise_15(int a, int b, int c) {
 }
 
 void exercise_16(int debut, int fin) {
-  
   if (debut < 0 || debut > 24 || fin < 0 || fin > 24) 
   {
       cout << "las horas deben estar entre 0 y 24!" << endl;
