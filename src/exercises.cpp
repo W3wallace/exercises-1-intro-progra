@@ -49,7 +49,7 @@ void exercise_3(int a, int b) {
  }
  else {
    cout << a/b << endl; 
- }
+ }0
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
@@ -201,13 +201,13 @@ void exercise_12(string color1, int numb1,
                  string color2, int numb2,
                  string color3, int numb3,
                  string color4, int numb4) {
-  if (color4== "?" && numb1==numb4 || numb4==-1 && color1==color4 || color1==color4 && numb1==numb4){
+  if (color4 == "?" && numb1==numb4 || numb4==-1 && color1==color4 || color1==color4 && numb1==numb4){
     cout << 1 << endl;    
   }
-  if (color4== "?" && numb2==numb4 || numb4==-1 && color2==color4 || color2==color4 && numb2==numb4){   
+  if (color4 == "?" && numb2==numb4 || numb4==-1 && color2==color4 || color2==color4 && numb2==numb4){   
     cout << 2 << endl;
   }
-  if (color4== "?" && numb3==numb4 || numb4==-1 && color3==color4 || color3==color4 && numb3==numb4){
+  if (color4 == "?" && numb3==numb4 || numb4==-1 && color3==color4 || color3==color4 && numb3==numb4){
     cout << 3 << endl;
   }
                  }
@@ -256,51 +256,50 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   if (debut < 0 || debut > 24 || fin < 0 || fin > 24) 
-  {
-      cout << "las horas deben estar entre 0 y 24!" << endl;
-      return;
+ {
+        cout << "Las horas deben estar entre 0 y 24!" << endl;
+        return;
 }
-    if (debut == fin)
+    if (debut == fin) 
     {
-      cout << "Que estraño, no has alquilado tu bicileta por mucho tiempo!" << endl;
-      return;
+        cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
+        return;
     }
 
-    if (debut > fin)
+    if (debut > fin) 
     {
-      cout << "Que estraño, el inicio del alquiler es después del final..." << endl;
-      return;
+        cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
+        return;
     }
 
-  int costo_total = 0;
-  int hora_actual = debut;
-  int hora_tarifa_1 =0;
-  int horas_tarifa_2 =0;
+    int costo_total = 0;
+    int hora_actual = debut;
+    int horas_tarifa_1 = 0;
+    int horas_tarifa_2 = 0;
 
-    while (hora_actual < fin)
-   {
+    while (hora_actual < fin) 
+    {
         if ((hora_actual >= 0 && hora_actual < 7) || (hora_actual >= 17 && hora_actual <= 24)) {
-           hora_tarifa_1++;
+            horas_tarifa_1++;
         } else {
-           horas_tarifa_2++;
+            horas_tarifa_2++;
         }
         hora_actual++;
-    } 
+    }
 
     cout << "Haz alquilado una bicicleta por" << endl;
 
-    if (hora_tarifa_1 > 0)
+    if (horas_tarifa_1 > 0) 
     {
-        cout << hora_tarifa_1 << "hora(s) con el tarifario de 1 bolivianos(s)" << endl;
-        costo_total += hora_tarifa_1;
+        cout << horas_tarifa_1 << " hora(s) con el tarifario de 1 boliviano(s)" << endl;
+        costo_total += horas_tarifa_1;
     }
     if (horas_tarifa_2 > 0) {
-        cout << horas_tarifa_2 << "horas(s) con el tarifario de 2 bolivianos(s)" << endl;
+        cout << horas_tarifa_2 << " hora(s) con el tarifario de 2 boliviano(s)" << endl;
         costo_total += horas_tarifa_2 * 2;
     }
-    
-    cout << "el monto total a pagar es de " << costo_total << "boliviano(s)." << endl;
 
+    cout << "El monto total a pagar es de " << costo_total << " boliviano(s)." << endl;
 }
 
 
